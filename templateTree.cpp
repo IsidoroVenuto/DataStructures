@@ -194,7 +194,7 @@ void printSeparator() {
 int main()
 {
 	Tree<int>* treeString=new Tree<int>;
-    //Examples with int type
+    //Example with int type
 	treeString->add(5)->add(6)->add(6)->add(8)->add(4);
 	treeString->printInorder();
 	treeString->printPostorder();
@@ -205,7 +205,7 @@ int main()
 	printSeparator();
 
 	Tree<string>* treeInt=new Tree<string>;
-    //Examples with string type
+    //Example with string type
 	treeInt->add("lorem")->add("ipsum")->add("dolor")->add("sit")->add("amet");
 	treeInt->printInorder();
 	treeInt->printPostorder();
